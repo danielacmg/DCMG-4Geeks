@@ -1,0 +1,69 @@
+body {
+	background: black;
+	font-family: Lobster;
+	padding: 5px;
+}
+
+* {
+	/*border: 1px dashed red;*/
+	min-height: 10px;
+}
+
+.postcard {
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+}
+.postcard-header h1 {
+	width: 350px;
+	margin: 0px;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left,
+.body-right {
+	padding: 15px;
+	width: 50%;
+
+	vertical-align: center;
+}
+.body-left p {
+	/*font-size: ;*/
+}
+.body-left p:first-child {
+	margin-top: 0x;
+}
+input {
+	border: none;
+	border-bottom: 1px grey solid !important;
+	font-family: Lobster;
+	height: 25%;
+	/*text-align: center;*/
+}
+/*input:active {
+	border: none;
+	border-bottom-color: lightgrey solid;
+}*/
+
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: lightgrey;
+	padding: 5px;
+	font-family: lobster;
+	border-color: white;
+}
+button:hover {
+	background-color: grey;
+}
